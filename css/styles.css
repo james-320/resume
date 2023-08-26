@@ -147,6 +147,7 @@ h1,
 .h1 {
   font-size: calc(2rem + 5.7vw);
   font-weight: 300;
+  break-before: page;
 }
 
 @media (min-width: 1200px) {
@@ -159,6 +160,7 @@ h1,
 h2,
 .h2 {
   font-size: calc(1.475rem + 2.7vw);
+  color: var(--bs-secondary);
 }
 @media (min-width: 1200px) {
   h2,
@@ -530,7 +532,6 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  line-height: 2em;
 }
 
 .display-1 {
@@ -8374,7 +8375,6 @@ fieldset:disabled .btn {
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
-  font-weight: 600;
 }
 
 .text-success {
@@ -11310,6 +11310,7 @@ section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
+  break-after: page;
 }
 section.resume-section .resume-section-content {
   width: 100%;
@@ -11327,4 +11328,32 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+#html:hover {
+  color: #D45836;
+}
+
+#css:hover {
+  color: #538DC1;
+}
+
+#python:hover {
+  color: #F9DA61;
+}
+
+#wordpress:hover {
+  color: #494949;
+}
+
+#photoshop:hover {
+  color:#8BB4DE;
+}
+
+#windows8:hover {
+  color: #4DAAE9;
+}
+
+#apple:hover {
+  color: #000000;
 }
